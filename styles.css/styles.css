@@ -18,7 +18,7 @@ body {
     color: var(--text-main-color);
 }
 
-<!-- Шапка -->
+/* ШАПКА */
 
 .logo {
 font-family: Raleway;
@@ -53,6 +53,7 @@ color:var(--text-main-color);
   }
 
   /* HEADER */
+
 .navigation-list-link,
 .address-nav-link,
 .modal-btn {
@@ -83,24 +84,183 @@ color: var(--text-logo-color);
 
 letter-spacing: 0.03em;
 
-
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .logo .logo-web {
-    color: var(--accent-color);
+color: var(--accent-color);
 }
 
-<!-- Герой --> 
+.address{
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
 
-.hero-title {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36px;
+}
 
+/* HERO */
+
+.hero .hero-title  {
+
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+background-color:var(--text-address-color);
+color:var(--text-white-color);
+}
+
+.button {
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+   
+    
+    display: flex;
+    align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    text-transform: uppercase;
+    
+    background-color:var(--accent-color);
+    color:var(--text-white-color);
 
-    color: var(--text-white-color);
+}
+
+/* FEATURES */
+
+.features-list-heading {
+
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color:var(--text-main-color)
+}
+
+.features-list-text {
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+
+letter-spacing: 0.03em;
+
+color:var(--text-address-color)
+}
+
+.section-title {
+
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color:var(--text-main-color);
+}
+
+.section-title-text{
+ font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+background-color: #2F303A ;
+color:var(--text-white-color)
+}
+/* TEAM */
+.section-title-team-name {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color:var(--text-main-color);
+
+}
+
+.section-title-team-text {
+font-weight: normal;
+font-size: 16px;
+line-height: 1.18;
+    
+text-align: center;
+letter-spacing: 0.03em;
+   
+color:var(--text-address-color)
+}
+
+.social-link {
+list-style-type: disc;
+color:var(--text-address-color);
+}
+
+.social-link:hover,
+.social-link:focus {
+color:var(--accent-color);
+}
+
+
+/* COMPANY */
+/* FOOTER */
+
+
+
+.logo-studio{
+color:var(--text-white-color);
+}
+
+.address-footer {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    
+    letter-spacing: 0.03em;
+    color:var(--text-white-color)
+
+}
+
+.address-nav-link-footer {
+    color:var(--text-white-color)
+}
+
+.footer-section{
+    background: #2F303A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.join-in {
+
+ font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color:var(--text-white-color)
+}
+
+.copyright {
+font-weight: normal;
+font-size: 12px;
+line-height: 2;
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.4);
 }
